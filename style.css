@@ -6,17 +6,16 @@ body{
 h1{
     font-size: 50px;
 }
-.my-name{
+span{
     color: orange;
 }
-.half{
+.half-width{
     width: 40%;
     float: left;
-    margin-left: 4%;
+    margin-left: 5%;
     padding-left: 2%;
-    margin-bottom: 35px;
 }
-.half img{
+.half-width img{
     width: 100%;
 }
 .top-banner{
@@ -24,7 +23,7 @@ h1{
     background-repeat: no-repeat;
 }
 section{
-    height: 80px;
+    height: 500px;
 }
 a{
     text-decoration: none;
@@ -35,16 +34,6 @@ a{
     font-weight: bold;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
 }
-.half-fro-second{
-    width: 40%;
-    float: left;
-    padding-left: 2%;
-    margin-left: 5%;
-
-}
-.half-fro-second img{
-    width: 100%;
-}
 h2{
     font-size: 40px;
 }
@@ -54,5 +43,25 @@ p{
 .dream-area{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right bottom;
+}
+.experience{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 2px;
+    height: 65%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 100;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
